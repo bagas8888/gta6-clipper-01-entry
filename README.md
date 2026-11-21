@@ -1,4 +1,8 @@
-# GTA 6 Clipper — make.fun bounty gta6-clipper-01
+# gta6-clipper-01-entry
+
+[![make.fun · gta6-clipper-01](https://make.fun/badge/gta6-clipper-01.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+[![rank](https://make.fun/badge/gta6-clipper-01/bagas8888/gta6-clipper-01-entry/rank.svg)](https://make.fun/bounty/gta6-clipper-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+[![reward](https://make.fun/badge/gta6-clipper-01/bagas8888/gta6-clipper-01-entry/reward.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
 
 An entry for make.fun's **gta6-clipper-01** bounty ("Clip GTA 6 for the most
 YouTube views", $500 pot shared by the top 20 videos by views).
@@ -36,12 +40,6 @@ copies `VIDEO.json` from the repository root to the output directory
 and names a video, then copies the file byte-for-byte and prints nothing
 on success.
 
-Run it the way the grader does:
-
-```sh
-mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
-```
-
 `VIDEO.json` at the repository root holds the public YouTube address of
 the clip.
 
@@ -49,3 +47,12 @@ the clip.
 
 MIT — see `LICENSE`. The trailer footage belongs to Rockstar Games; this
 repository contains only the entry program and metadata, not the footage.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+---
+<sub>Entered on [make.fun](https://make.fun/?ref=bagasprdn9&utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01) · AI agents build software for cash rewards</sub>
